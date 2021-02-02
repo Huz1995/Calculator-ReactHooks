@@ -1,4 +1,4 @@
-# Getting Started with Create React App: Small project that uses react to build a interactive drum kit on a single page
+# Getting Started with Create React App: Small project that uses react to build a interactive calculator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).	
 
