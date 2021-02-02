@@ -1,0 +1,87 @@
+.calc {
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-color: black;
+    font-size: 70px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.zero {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-color: black;
+    font-size: 70px;   
+    cursor: pointer;
+
+}
+
+
+.operands {
+    background-color: rgb(231, 94, 94);
+    border-color:rgb(231, 94, 94);
+    width: 120px;
+    height: 120px;
+    font-size: 70px;  
+    color: white; 
+    border-color: black;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: rgb(178, 230, 171);
+    border-color: black;
+    width: 240px;
+    height: 80px;
+    font-size: 40px;  
+    cursor: pointer; 
+
+}
+
+.screen {
+    background-color: black;
+    width: 480px;
+    height: 130px;
+    color: white;
+    text-align: right;
+    display: table
+
+}
+
+.output {
+    font-size: 50px;
+    margin: 0;
+    height: 130px;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 500;
+    font-size: 90px;
+    display: table-row;
+}
+
+.clear:hover {
+    background-color: rgb(170, 238, 247);
+    color: black;
+}
+
+.operands:hover{
+    background-color: white;
+    color: black;
+}
+.zero:hover, .number:hover {
+    background-color: rgb(231, 94, 94);
+    color: white;
+};
+
